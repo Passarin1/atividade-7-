@@ -14,12 +14,9 @@
         }
         header {
             background-color: rgb(41, 75, 83);
-            color: #fff;
+            color: #409ef7;
             padding: 20px;
             text-align: center;
-        }
-        h1 {
-            margin-bottom: 20px;
         }
         .menu {
             display: flex;
@@ -31,15 +28,23 @@
         .menu-item {
             list-style-type: none;
             text-align: center;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            padding: 10px;
+            max-width: 300px; /* Ajuste o tamanho máximo conforme necessário */
         }
         .menu-item img {
             max-width: 100%;
             height: auto;
             border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+        .menu-item h2 {
+            margin: 10px 0;
+            font-size: 1.5em;
         }
         .menu-item a {
-            display: block;
+            display: inline-block;
             margin-top: 10px;
             text-decoration: none;
             color: rgb(41, 75, 83);
@@ -57,12 +62,12 @@
     <div class="menu">
         <div class="menu-item">
             <h2>Receita de Lasanha</h2>
-            <img src="/imgs/lasanha-de-pao-de-forma-receita.jpg.webp" alt="lasanha">
+            <img src="/imgs/lasanha-de-pao-de-forma-receita.jpg.webp" alt="Lasanha">
             <a href="/comidas/receita.html">Veja a Receita</a>
         </div>
         <div class="menu-item">
             <h2>Receita de Torta</h2>
-            <img src="/imgs/torta-de-liquidificador-receita.webp" alt="torta">
+            <img src="/imgs/torta-de-liquidificador-receita.webp" alt="Torta">
             <a href="/comidas/torta.html">Veja a Receita</a>
         </div>
     </div>
