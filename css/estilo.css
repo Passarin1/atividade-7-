@@ -11,58 +11,7 @@ body {
     line-height: 1.6;
     padding: 20px;
     background-color: #f9f9f9;
-}
-
-/* Centralizar o título principal */
-h1 {
     text-align: center;
-    color: #333;
-}
-
-/* Estilo para os parágrafos */
-p {
-    margin-bottom: 1em;
-    color: #666;
-}
-
-/* Adicionar espaçamento entre os parágrafos */
-p + p {
-    margin-top: 0.5em;
-}
-
-/* Container para centralizar o conteúdo */
-.container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(224, 186, 186, 0.1);
-}
-
-/* Ajustar título e subtítulo */
-h2 {
-    margin-top: 1em;
-    color: #444;
-}
-
-/* Remover qualquer estilo padrão de h1 dentro de p */
-p h1 {
-    font-size: 1.5em;
-}
-/* Resetar margens e preenchimento padrão do navegador */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-/* Estilo para o corpo da página */
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    padding: 20px;
-    background-color: #f9f9f9;
 }
 
 /* Container para centralizar o conteúdo */
@@ -77,7 +26,6 @@ body {
 
 /* Estilo para o título principal */
 h1 {
-    text-align: center;
     color: #333;
     margin-bottom: 20px;
 }
@@ -111,4 +59,9 @@ li {
     padding: 10px;
     margin-top: 20px;
     font-style: italic;
+}
+
+/* Remover qualquer estilo padrão de h1 dentro de p */
+p h1 {
+    font-size: 1.5em;
 }
